@@ -10,7 +10,7 @@ if (Number.isNaN(port) || port < 1 || port > 65535) {
   throw new Error(`Invalid PORT: ${rawPort}`);
 }
 
-function optinal(name: string): string | undefined {
+function optional(name: string): string | undefined {
   const value = process.env[name];
   return value === undefined || value === '' ? undefined: value;
 }
