@@ -8,7 +8,7 @@ services:
     # Published on all interfaces so a physical Android device on the same Wi-Fi
     # can reach it. Emulators use http://10.0.2.2:3000/api/ either way.
     ports:
-      - "433:3000"
+      - "443:3000"
     volumes:
       - /home/migue/certs:/certs:ro
     restart: unless-stopped
