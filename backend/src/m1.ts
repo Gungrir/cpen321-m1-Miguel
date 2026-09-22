@@ -28,7 +28,7 @@ m1Router.get('/server-time', (_req, res) => {
 });
 
 m1Router.get('/name', (_req, res) => {
-  res.json({ firstName: 'Miguel', lastName: 'Tampubolon' }); =
+  res.json({ firstName: 'Miguel', lastName: 'Tampubolon' });
 });
 
 m1Router.get('/client-ip', (req, res) => {
