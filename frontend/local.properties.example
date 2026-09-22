@@ -5,6 +5,6 @@ sdk.dir=/path/to/Android/sdk
 API_BASE_URL=http://10.0.2.2:3000
 
 # Google OAuth client ID.
-GOOGLE_CLIENT_ID=
+GOOGLE_CLIENT_ID= 265494412138-hrubktjjvc7r67l4jo45cvnj8gftbgrv.apps.googleusercontent.com
 
 # Other API keys, secrets, and configurations
