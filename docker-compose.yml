@@ -10,7 +10,7 @@ services:
     ports:
       - "443:3000"
     volumes:
-      - /home/migue/certs:/certs:ro
+      - ${HOME}/certs:/certs:ro
     restart: unless-stopped
     env_file:
       - path: ./backend/.env
